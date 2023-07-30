@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/68b5b3a035.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      
+         <div class="container">
+          <nav>
+            <img src="Image/logo.png" class="logo">
+            <ul id="sidemenu">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <p style="color: #ff004f;">Full Stack Developer</p>
+            <h1>Hi, I am <span>Jishan Shakeel</span><br> from Bhagalpur, Bihar</h1>
+          </div>
+        </div>
+        </div>
+        <!-- ----------about-------- -->
+        <div id="about">
+          <div class="container">
+            <div class="row">
+              <div class="about1">
+                <img src="Image/pic.jpeg">
+              </div>
+              <div class="about2">
+                <h1 class="sub" style="color:white;">About Me</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                  Recusandae ducimus minus harum minima delectus quasi quas 
+                  assumenda sed soluta dignissimos iure nisi ipsum deleniti,
+                   officiis aliquam molestiae voluptatem molestias architecto!</p>
+
+                   <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>                   
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                      <li><span>Language</span><br>Java, HTML, CSS <br>JavaScript, Python</li>
+                      <li><span>Web Development</span><br>Web app Development</li>
+                      <li><span>Database</span><br>MySql,Oracle</li>
+                      <li><span>FrameWorks</span><br>Spring Boot,Hibernate,j2EE</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                      <li><span>2015</span><br>Schooling From Bihar State Board</li>
+                      <li><span>2017</span><br>Intermediate From Bihar State Board</li>
+                      <li><span>2022</span><br>Btech from SIRT Bhopal</li>
+                    </ul>
+                   </div>
+              </div>
+
+
+              </div>
+          </div>
+        </div>
+
+      <!----------Services--------->
+      <div id="services">
+        <div class="conatiner">
+          <h1 class="sub-title" style="color: white;">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Development</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Molestiae, debitis incidunt, voluptatibus odit voluptate iste 
+                cumque, provident pariatur velit  veritatis sapiente sunt 
+                veniam ea dolorem minima esse obcaecati. Laborum, corrupti.</p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-app-store"></i>
+              <h2>App Development</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Molestiae, debitis incidunt, voluptatibus odit voluptate iste 
+                cumque, provident pariatur velit  veritatis sapiente sunt 
+                veniam ea dolorem minima esse obcaecati. Laborum, corrupti.</p>
+               <a href="#">Learn more</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+       <!---------------Portfolio----------->
+
+       <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title" style="color: white;">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+              <img src="Image/work1.jpeg">
+              <div class="layer">
+                <h3>Food Delievry App</h3>
+                <p> Its connect you to the best Restaurant around you,please visit once. 
+                  <span> <br><i class="fa-sharp fa-solid fa-arrow-down"></i></span>   </p>
+                <a href="https://jishan7542.github.io/Online-food-delievery-site/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="Image/work2.jpeg">
+              <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>Its connect you to the Exclusive Branded and Stylish Wear, Here you can purchase quality Jeans,T-shirts,
+                  Shirts and many more Please Visit Here <span> <br><i class="fa-sharp fa-solid fa-arrow-down"></i></span>   
+                </p>
+                <a href="https://jishan7542.github.io/Shopping-Hub/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="Image/work1.jpeg">
+              <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p> Its connect you to the Exclusive Branded and Stylish Wear, Here you can purchase quality Jeans,T-shirts,
+                  Shirts and many more Please Visit here.<i class="fa-sharp fa-solid fa-arrow-down"></i>   
+                </p>
+                <a href="https://jishan7542.github.io/Online-food-delievery-site/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="Image/work2.jpeg">
+              <div class="layer">
+                <h3>Food Delievry App</h3>
+                <p> Its connect you to the best Restaurant around you,please visit once.</p>
+                <a href="https://jishan7542.github.io/Shopping-Hub/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="Image/work1.jpeg">
+              <div class="layer">
+                <h3>Food Delievry App</h3>
+                <p> Its connect you to the best Restaurant around you,please visit once.</p>
+                <a href="https://jishan7542.github.io/Online-food-delievery-site/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn"><b>See more</b></a>
+        </div>
+       </div>
+
+        <!---------------------Contact----------------------->
+        <div id="contact">
+          <div class="conatiner">
+            <div class="row">
+              <div class="contact-left">
+                <h1 class="sub-title" style="color: white;">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>zishan7542@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-7542096418</p>
+                <div class="social-icon">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Image/zishan s.pdf" download class="btn btn2">Download Cv</a>
+              </div>
+              <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                  <input type="text" name="Name" placeholder="your name" required>
+                  <input type="email" name="Email" placeholder="your email" required>
+                  <textarea name="Message"rows="6" placeholder="your message" required></textarea>
+                  <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <spa id="msg"></spa>
+              </div>
+            </div>
+            <div class="copyright">
+              <p>Copyright &copy; Jishan Shakeel<i class="fa-solid fa-heart"></i>...</p>
+            </div>
+
+          </div>
+        </div>
+
+        <script>
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+  
+          function opentab(tabname) {
+              for (tablink of tablinks) {
+                  tablink.classList.remove("active-link");
+              }
+              for (tabcontent of tabcontents) {
+                  tabcontent.classList.remove("active-tab");
+              }
+              event.currentTarget.classList.add("active-link");
+              document.getElementById(tabname).classList.add("active-tab");
+          }
+      </script>
+
+      <script>
+        var sidemenu =document.getElementById("sidemenu")
+        function openmenu(){
+          sidemenu.style.right="0";
+        }
+        function closemenu(){
+          sidemenu.style.right="-250px";
+        }
+      </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyHTVdm9fMAsn_-cX4ZYOIaqx9JtmEjIq35_z28B4X6Xy4EjOEBXWnw3bPrRSq-qKJM/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML="Message sent successfully.."
+          setTimeout(function(){
+            msg.innerHTML=""
+          },1000)
+          form.reset()
+        })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
